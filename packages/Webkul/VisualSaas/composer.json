@@ -1,0 +1,26 @@
+{
+    "name": "webkul/visual-saas",
+    "license": "MIT",
+    "description": "Tenant-scoped wrapper around bagistoplus/visual for the SAASCustomizer multi-tenant package.",
+    "authors": [
+        {
+            "name": "Webkul",
+            "email": "support@webkul.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Webkul\\VisualSaas\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Webkul\\VisualSaas\\Providers\\VisualSaasServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
